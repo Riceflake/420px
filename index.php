@@ -74,7 +74,7 @@
                 apply_sepia($img, $img_dir, true);
             elseif($img && imagefilter($img, $filter, $options))
             {
-                imagepng($img, $img_dir, $options);
+                imagepng($img, $img_dir);
                 imagedestroy($img);
             }
         }
