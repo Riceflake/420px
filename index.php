@@ -259,11 +259,6 @@
     </div>
 </nav>
 <div id="pictures" class="flex-container">
-    <!--
-    <?php if (isset($message) && $message === "success") : ?>
-        Success
-    <? endif; ?>
-    -->
     <?php if (isset($_GET['user'])): print_image($_GET['user'], false); ?>
     <?php elseif(!empty($_SESSION)) : print_image($_SESSION['email'], true);  ?>
     <form enctype="multipart/form-data" action="index.php" method="POST">
