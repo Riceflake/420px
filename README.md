@@ -14,8 +14,8 @@ Features
 - Login/Register
 - Upload/Delete image
 - Multiple available filter (contrast, luminosity, edge, blur, grayscale, sepia)
-- RSS (rss.php?user=my_user@email.com)
-- Can see user's images without login (index.php?user=my_user@email.com)
+- RSS (`rss.php?user=my_user@email.com`)
+- Can see user's images without login (`index.php?user=my_user@email.com`)
 
 Screenshots
 -----------
